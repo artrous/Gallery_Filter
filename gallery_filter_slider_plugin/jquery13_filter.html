@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>First Lesson JQuery</title>
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/styles13.css" rel="stylesheet">
+<!--<link href="css/demo-slideshow.css" rel="stylesheet">-->
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="logo">Intergraphics</div>
+		<div class="btn">&#9776;</div>
+		<nav >
+			<ul>	
+				<li><a href="#" class="home" data-slide="1">Home</a></li>
+				<li><a href="#" class="products" data-slide="2">Products</a></li>
+				<li><a href="#" class="services" data-slide="3">Services</a></li>
+				<li><a href="#" class="contact" data-slide="4">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="clear"></div>
+	</div>
+</header>
+
+<div class="cycle-slideshow" 
+   	data-cycle-fx=scrollHorz
+    data-cycle-timeout=2000
+    >
+    <!-- empty element for pager links -->
+    <div class="cycle-pager"></div>
+
+	<div class="cycle-prev">&lArr;</div>
+    <div class="cycle-next">&rArr;</div>
+
+    <img src="images/image1.jpg">
+    <img src="images/image2.jpg">
+    <img src="images/image3.jpg">
+    <img src="images/image4.jpg">
+</div>
+
+<section  class="slide" id="portfolio" data-slide="1">
+	<div class="container">
+		<div class="navlinks">
+			<ul>	
+				<li><a href="#" class="current" data-filter="all">All Projects</a></li>
+				<li><a href="#" data-filter=".web">Web</a></li>
+				<li><a href="#" data-filter=".graphics">Graphics</a></li>
+				<li><a href="#" data-filter=".media">Media</a></li>
+			</ul>
+		</div>
+		<div class="imagesgallery">
+			<h2>All Projects</h2>
+			<ul>
+				<li class="mix web"><img src="images/3.jpg"></li>
+				<li class="mix graphics"><img src="images/4.jpg"></li>
+				<li class="mix graphics"><img src="images/5.jpg"></li>
+				<li class="mix media"><img src="images/9.jpg"></li>
+				<li class="mix media"><img src="images/10.jpg"></li>
+				<li class="mix web"><img src="images/11.jpg"></li>
+				<li class="mix web"><img src="images/12.jpg"></li>
+				<li class="mix web"><img src="images/13.jpg"></li>
+				<li class="mix media"><img src="images/14.jpg"></li>
+			
+		
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section id="products" class="slide" data-slide="2">
+	<div class="container">
+		<h2>Products</h2>
+		 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+
+<p>Mauris quis est tortor. Mauris magna mauris, fringilla nec libero quis, scelerisque congue mi. Morbi dignissim posuere ipsum ac commodo. Suspendisse rutrum nisl leo, blandit rutrum ligula tempus aliquet. Fusce fermentum ultrices diam, eu dapibus ipsum luctus vitae. Donec a luctus tellus. Fusce luctus, ex et pharetra lacinia, tortor urna facilisis nulla, non malesuada dolor ligula sed ipsum.</p>
+
+<p>Maecenas a libero ac eros commodo mattis tempus non tellus. Sed imperdiet tempus mattis. Mauris tempor eros ut ex cursus blandit. Etiam egestas nulla erat, hendrerit auctor magna efficitur ut. Quisque aliquam quam nunc, a laoreet magna volutpat in. Ut a elit ut justo dictum ornare. Fusce consequat massa vel pulvinar mollis.</p>
+
+<p>Nam bibendum nisi in lacus elementum, vel ornare orci varius. Duis suscipit velit in accumsan tempor. Suspendisse at massa sed elit vehicula luctus. Proin vel ornare ex. Mauris facilisis consequat nibh, quis luctus purus rutrum maximus. Cras porttitor iaculis mauris, vel laoreet neque venenatis sit amet. Nulla sed sem sed sem molestie consectetur. Aliquam turpis ligula, efficitur et velit at, lacinia fermentum erat. Mauris consequat risus eget purus pulvinar auctor. Morbi molestie sit amet orci ut vestibulum. Donec fringilla bibendum risus pretium convallis. Duis eget enim erat.</p>
+
+<p>Quisque ac pretium risus. Pellentesque eget mattis orci. Aliquam eget turpis tempor, ultricies nisi laoreet, sodales nisi. Proin non faucibus sapien, eu suscipit massa. Integer at placerat lacus. Fusce id purus non elit tristique elementum. Donec viverra pulvinar urna eget ornare. Morbi viverra diam lacus, faucibus accumsan purus imperdiet a. Integer vitae nisi molestie, dignissim magna eget, suscipit ipsum. Proin euismod rutrum urna, sit amet bibendum nisi vestibulum ac. Mauris elit urna, fermentum et cursus at, viverra nec magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed congue ac nisi at mollis. </p>
+	</div>
+</section>
+
+<section id="services" class="slide" data-slide="3">
+	<div class="container">
+	<h2 class="wow bounceOut">Services</h2>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+
+<p>Mauris quis est tortor. Mauris magna mauris, fringilla nec libero quis, scelerisque congue mi. Morbi dignissim posuere ipsum ac commodo. Suspendisse rutrum nisl leo, blandit rutrum ligula tempus aliquet. Fusce fermentum ultrices diam, eu dapibus ipsum luctus vitae. Donec a luctus tellus. Fusce luctus, ex et pharetra lacinia, tortor urna facilisis nulla, non malesuada dolor ligula sed ipsum.</p>
+
+<p>Maecenas a libero ac eros commodo mattis tempus non tellus. Sed imperdiet tempus mattis. Mauris tempor eros ut ex cursus blandit. Etiam egestas nulla erat, hendrerit auctor magna efficitur ut. Quisque aliquam quam nunc, a laoreet magna volutpat in. Ut a elit ut justo dictum ornare. Fusce consequat massa vel pulvinar mollis.</p>
+	
+	</div>
+</section>
+
+<section id="contact" class="slide" data-slide="4">
+	<div class="container">
+		<h2>Contact</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+
+<p>Mauris quis est tortor. Mauris magna mauris, fringilla nec libero quis, scelerisque congue mi. Morbi dignissim posuere ipsum ac commodo. Suspendisse rutrum nisl leo, blandit rutrum ligula tempus aliquet. Fusce fermentum ultrices diam, eu dapibus ipsum luctus vitae. Donec a luctus tellus. Fusce luctus, ex et pharetra lacinia, tortor urna facilisis nulla, non malesuada dolor ligula sed ipsum.</p>
+
+<p>Maecenas a libero ac eros commodo mattis tempus non tellus. Sed imperdiet tempus mattis. Mauris tempor eros ut ex cursus blandit. Etiam egestas nulla erat, hendrerit auctor magna efficitur ut. Quisque aliquam quam nunc, a laoreet magna volutpat in. Ut a elit ut justo dictum ornare. Fusce consequat massa vel pulvinar mollis.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed tincidunt felis. Nam rhoncus posuere tellus, ut tincidunt dolor dapibus eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar mollis sapien, ut scelerisque diam tincidunt at. Mauris consectetur, arcu sed porta eleifend, tellus ex condimentum velit, efficitur ultricies ipsum eros tempus quam. Maecenas nec elit tristique, pharetra ante nec, sodales metus. Ut venenatis, justo sit amet ullamcorper ultricies, odio nibh gravida velit, et sodales odio sapien non nibh. Morbi non quam sit amet arcu luctus vehicula. Fusce luctus pharetra eros eu tincidunt.</p>
+
+<p>Mauris quis est tortor. Mauris magna mauris, fringilla nec libero quis, scelerisque congue mi. Morbi dignissim posuere ipsum ac commodo. Suspendisse rutrum nisl leo, blandit rutrum ligula tempus aliquet. Fusce fermentum ultrices diam, eu dapibus ipsum luctus vitae. Donec a luctus tellus. Fusce luctus, ex et pharetra lacinia, tortor urna facilisis nulla, non malesuada dolor ligula sed ipsum.</p>
+
+<p>Maecenas a libero ac eros commodo mattis tempus non tellus. Sed imperdiet tempus mattis. Mauris tempor eros ut ex cursus blandit. Etiam egestas nulla erat, hendrerit auctor magna efficitur ut. Quisque aliquam quam nunc, a laoreet magna volutpat in. Ut a elit ut justo dictum ornare. Fusce consequat massa vel pulvinar mollis.</p>
+	</div>
+</section>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.cycle2.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/wow.min.js"></script>
+ <script>
+            var containerEl = document.querySelector('.imagesgallery');
+
+            var mixer = mixitup(containerEl);
+			 new WOW().init();
+        </script>
+<script src="js/script13.js"></script>
+
+</body>
+</html>
